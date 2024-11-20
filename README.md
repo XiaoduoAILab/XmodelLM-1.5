@@ -7,7 +7,7 @@ Xmodel_LM1.5-1B
 [![hf_space](https://img.shields.io/badge/🤗-Xiaoduo%20HuggingFace-blue.svg)](https://huggingface.co/XiaoduoAILab/XmodelLM1.5)
 [![arXiv](https://img.shields.io/badge/Arxiv-2406.02856-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2406.02856) 
 [![Code License](https://img.shields.io/badge/Code%20License-Apache_2.0-green.svg)](https://github.com/tatsu-lab/stanford_alpaca/blob/main/LICENSE)
-[![github](https://img.shields.io/badge/-Github-black?logo=github)](https://github.com/XiaoduoAILab/XmodelLM-1.5.git)[![github](https://img.shields.io/github/stars/XiaoduoAILab/XmodelLM.svg?style=social)](https://github.com/XiaoduoAILab/XmodelLM.git)  
+[![github](https://img.shields.io/badge/-Github-black?logo=github)](https://github.com/XiaoduoAILab/XmodelLM-1.5.git)[![github](https://img.shields.io/github/stars/XiaoduoAILab/XmodelLM.svg?style=social)](https://github.com/XiaoduoAILab/XmodelLM-1.5.git)  
 
 
 </h5>
@@ -97,7 +97,7 @@ If you find Xmodel_LM useful in your research or applications, please consider g
     title={Xmodel-LM1.5: An 1B-scale Multilingual LLM},
     author={Qun Wang and Yang Liu and QingQuan Lin  and Ling Jiang},
     year={2024},
-    eprint={2406.02856},
+    eprint={2411.10083},
     archivePrefix={arXiv},
     primaryClass={cs.CL}
 }
