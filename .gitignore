@@ -1,0 +1,5 @@
+pytorch_model.bin
+*.safetensors
+models/__pycache__/
+*/__pycache__/
+Xdata_Thai/results/

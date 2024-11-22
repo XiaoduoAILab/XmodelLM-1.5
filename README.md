@@ -12,9 +12,16 @@ Xmodel_LM1.5-1B
 
 </h5>
 
+## ✨ Features
+- 1B-scale multilingual large model, pretrained on ~2 trillion tokens.
+- Strong performance in Thai, Arabic, French, Chinese, and English.
+- Open-source Thai-specific evaluation dataset with 350+ annotated samples.
+- Fully open-source codebase and pretrained models.
+
 ## 🌟 Introduction
 
 We introduce Xmodel-LM1.5, a novel 1-billion-parameter multilingual large model pretrained on approximately 2 trillion tokens. The model demonstrates strong performance across several languages, with particularly notable results in Thai, Arabic, and French, alongside its effectiveness in Chinese and English. In addition, we contribute to the research community by releasing a Thai evaluation dataset, which includes hundreds of questions annotated by students from Chulalongkorn University’s School of Integrated Innovation. While the results are promising, we acknowledge that there is still room for improvement. We hope this work advances ongoing efforts in multilingual AI research and promotes better cross-linguistic understanding in various natural language processing tasks
+
 ## 📊 Benchmark
 
 ### Commonsense Reasoning
@@ -28,8 +35,6 @@ We introduce Xmodel-LM1.5, a novel 1-billion-parameter multilingual large model 
 | InternLM2-1.8B       | 37.54     | 70.20     | 69.48     | 46.52     | 24.40      | 75.57    | 93.90    | 65.67     | 60.41   |
 | Qwen2.5-1.5B         | 40.36     | 74.83     | 73.27     | 50.09     | 31.40      | 75.95    | 94.90    | 63.06     | 62.98   |
 | **Xmodel-LM1.5-1B**  | 28.92     | 64.31     | 62.78     | 45.94     | 22.20      | 72.20    | 89.10    | 60.62     | 55.76   |
-
-
 
 
 ### Performance on multilingual tasks (Thai, Arabic, French, Chinese)
@@ -63,12 +68,32 @@ We introduce Xmodel-LM1.5, a novel 1-billion-parameter multilingual large model 
 | **Xmodel-LM1.5-1B** | 0.259     | 0.5789       |
 
 
+## 📂 Xdata_Thai
+In collaboration with Chulalongkorn University, we developed Xdata_Thai, a dataset with 350 manually annotated samples designed to evaluate large language models (LLMs) in Thai. Key features of the dataset include:
+
+- Coverage of Thai idioms, slang, and formal tone distinctions
+- Inclusion of cross-border e-commerce scenarios
+- Attention to low-resource language challenges
+
+Key Features
+- Diverse Task Types: Incorporates practical applications like e-commerce and idiomatic language.
+- High-Quality Distractors: Based on peer-reviewed corrections and real-world examples.
+- Detailed Methodology: The creation process is fully documented. See our paper for details.
+
+<!-- ## 🌟 Good Case in Thai
+We also trained a multilingual instruction-tuned model using a mixed dataset of Thai, English, and Chinese. While this model is not open-sourced, we are excited to showcase some Good Cases it achieved in Thai tasks:
+
+Example 1: High-quality translation for idiomatic expressions.
+Example 2: 
+Example 3: Effective handling of complex Thai proverbs in e-commerce scenarios.
+These results demonstrate the potential of instruction-tuned models in enhancing cross-linguistic understanding and addressing low-resource language challenges. -->
+
 ## 🛠️ Install
 
 1. Clone this repository and navigate to XmodelLM folder
    ```bash
    git clone https://github.com/XiaoduoAILab/XmodelLM-1.5.git
-   cd xmodellm
+   cd XmodelLM-1.5
    ```
 
 2. Install Package
@@ -78,14 +103,23 @@ We introduce Xmodel-LM1.5, a novel 1-billion-parameter multilingual large model 
 
 ## 🗝️ Quick Start
 
-#### Download Xmodel_LM model
+#### Download Xmodel_LM1.5 model
 
-Our model files are fully open source on huggingface, you can download them at [here](https://huggingface.co/XiaoduoAILab/XmodelLM-1.5).
+Our model files are fully open source on huggingface, you can download them at [here](https://huggingface.co/XiaoduoAILab/XmodelLM-1.5). We offer both the pretrained model, Xmodel_LM1.5, and the instruction-tuned model, which has been trained exclusively on Chinese and English data. 
 
-#### Example for Xmodel_LM model inference
+#### Example for Xmodel_LM1.5 model and instruct model inference
 Download the model files first and save them in your folder. Then you can run the scripts below, we recommend entering an absolute path as the parameter.
 ```bash
 python generate.py --model_path path/to/folder --device cuda:0
+```
+
+#### Evaluation of Xdata_Thai 
+
+```bash
+cd Xdata_Thai
+CUDA_VISIBLE_DEVICES=0  python eval.py --model_path path/to/folder -k 3  
+# -k means num_shots
+# -m means model_path
 ```
 
 ## ✏️ Reference
