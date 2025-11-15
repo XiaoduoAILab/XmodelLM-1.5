@@ -1,0 +1,175 @@
+{"ckp_name": "iter-002000", "task": "boolq", "acc": 0.6208}
+{"ckp_name": "iter-004000", "task": "boolq", "acc": 0.5771}
+{"ckp_name": "iter-006000", "task": "boolq", "acc": 0.5905}
+{"ckp_name": "iter-008000", "task": "boolq", "acc": 0.5584}
+{"ckp_name": "iter-010000", "task": "boolq", "acc": 0.5896}
+{"ckp_name": "iter-012000", "task": "boolq", "acc": 0.6018}
+{"ckp_name": "iter-014000", "task": "boolq", "acc": 0.5991}
+{"ckp_name": "iter-016000", "task": "boolq", "acc": 0.5829}
+{"ckp_name": "iter-018000", "task": "boolq", "acc": 0.6083}
+{"ckp_name": "iter-020000", "task": "boolq", "acc": 0.6107}
+{"ckp_name": "iter-022000", "task": "boolq", "acc": 0.6122}
+{"ckp_name": "iter-024000", "task": "boolq", "acc": 0.6156}
+{"ckp_name": "iter-026000", "task": "boolq", "acc": 0.6073}
+{"ckp_name": "iter-028000", "task": "boolq", "acc": 0.6153}
+{"ckp_name": "iter-030000", "task": "boolq", "acc": 0.6058}
+{"ckp_name": "iter-032000", "task": "boolq", "acc": 0.6156}
+{"ckp_name": "iter-034000", "task": "boolq", "acc": 0.6205}
+{"ckp_name": "iter-036000", "task": "boolq", "acc": 0.6168}
+{"ckp_name": "iter-038000", "task": "boolq", "acc": 0.5951}
+{"ckp_name": "iter-040000", "task": "boolq", "acc": 0.607}
+{"ckp_name": "iter-042000", "task": "boolq", "acc": 0.6089}
+{"ckp_name": "iter-044000", "task": "boolq", "acc": 0.6141}
+{"ckp_name": "iter-046000", "task": "boolq", "acc": 0.6122}
+{"ckp_name": "iter-048000", "task": "boolq", "acc": 0.6125}
+{"ckp_name": "iter-050000", "task": "boolq", "acc": 0.608}
+{"ckp_name": "iter-052000", "task": "boolq", "acc": 0.6113}
+{"ckp_name": "iter-054000", "task": "boolq", "acc": 0.618}
+{"ckp_name": "iter-056000", "task": "boolq", "acc": 0.604}
+{"ckp_name": "iter-058000", "task": "boolq", "acc": 0.6095}
+{"ckp_name": "iter-060000", "task": "boolq", "acc": 0.6092}
+{"ckp_name": "iter-062000", "task": "boolq", "acc": 0.6131}
+{"ckp_name": "iter-064000", "task": "boolq", "acc": 0.608}
+{"ckp_name": "iter-066000", "task": "boolq", "acc": 0.5997}
+{"ckp_name": "iter-068000", "task": "boolq", "acc": 0.6131}
+{"ckp_name": "iter-070000", "task": "boolq", "acc": 0.6098}
+{"ckp_name": "iter-072000", "task": "boolq", "acc": 0.6073}
+{"ckp_name": "iter-074000", "task": "boolq", "acc": 0.6159}
+{"ckp_name": "iter-076000", "task": "boolq", "acc": 0.6092}
+{"ckp_name": "iter-078000", "task": "boolq", "acc": 0.6046}
+{"ckp_name": "iter-080000", "task": "boolq", "acc": 0.6073}
+{"ckp_name": "iter-082000", "task": "boolq", "acc": 0.5979}
+{"ckp_name": "iter-084000", "task": "boolq", "acc": 0.6083}
+{"ckp_name": "iter-086000", "task": "boolq", "acc": 0.6128}
+{"ckp_name": "iter-088000", "task": "boolq", "acc": 0.611}
+{"ckp_name": "iter-090000", "task": "boolq", "acc": 0.6092}
+{"ckp_name": "iter-092000", "task": "boolq", "acc": 0.6021}
+{"ckp_name": "iter-094000", "task": "boolq", "acc": 0.6113}
+{"ckp_name": "iter-096000", "task": "boolq", "acc": 0.5884}
+{"ckp_name": "iter-098000", "task": "boolq", "acc": 0.5991}
+{"ckp_name": "iter-100000", "task": "boolq", "acc": 0.6064}
+{"ckp_name": "iter-102000", "task": "boolq", "acc": 0.5844}
+{"ckp_name": "iter-104000", "task": "boolq", "acc": 0.6128}
+{"ckp_name": "iter-106000", "task": "boolq", "acc": 0.6055}
+{"ckp_name": "iter-108000", "task": "boolq", "acc": 0.607}
+{"ckp_name": "iter-110000", "task": "boolq", "acc": 0.5988}
+{"ckp_name": "iter-112000", "acc": 0.585}
+{"ckp_name": "iter-114000", "acc": 0.5985}
+{"ckp_name": "iter-116000", "acc": 0.6049}
+{"ckp_name": "iter-118000", "acc": 0.6125}
+{"ckp_name": "iter-120000", "acc": 0.6003}
+{"ckp_name": "iter-122000", "acc": 0.5976}
+{"ckp_name": "iter-124000", "acc": 0.6006}
+{"ckp_name": "iter-126000", "acc": 0.5765}
+{"ckp_name": "iter-128000", "acc": 0.589}
+{"ckp_name": "iter-130000", "acc": 0.5982}
+{"ckp_name": "iter-132000", "acc": 0.6076}
+{"ckp_name": "iter-134000", "acc": 0.6064}
+{"ckp_name": "iter-136000", "acc": 0.5939}
+{"ckp_name": "iter-138000", "acc": 0.5792}
+{"ckp_name": "iter-140000", "acc": 0.5434}
+{"ckp_name": "iter-142000", "acc": 0.5636}
+{"ckp_name": "iter-144000", "acc": 0.5933}
+{"ckp_name": "iter-146000", "acc": 0.6116}
+{"ckp_name": "iter-148000", "acc": 0.5385}
+{"ckp_name": "iter-150000", "acc": 0.6073}
+{"ckp_name": "iter-152000", "acc": 0.5838}
+{"ckp_name": "iter-154000", "acc": 0.5869}
+{"ckp_name": "iter-156000", "acc": 0.5924}
+{"ckp_name": "iter-158000", "acc": 0.581}
+{"ckp_name": "iter-160000", "acc": 0.5786}
+{"ckp_name": "iter-162000", "acc": 0.5976}
+{"ckp_name": "iter-164000", "acc": 0.6034}
+{"ckp_name": "iter-166000", "acc": 0.5917}
+{"ckp_name": "iter-168000", "acc": 0.6076}
+{"ckp_name": "iter-170000", "acc": 0.6021}
+{"ckp_name": "iter-172000", "acc": 0.596}
+{"ckp_name": "iter-174000", "acc": 0.5945}
+{"ckp_name": "iter-176000", "acc": 0.6009}
+{"ckp_name": "iter-178000", "acc": 0.5648}
+{"ckp_name": "iter-180000", "acc": 0.5896}
+{"ckp_name": "iter-182000", "acc": 0.5823}
+{"ckp_name": "iter-184000", "acc": 0.5896}
+{"ckp_name": "iter-186000", "acc": 0.5624}
+{"ckp_name": "iter-188000", "acc": 0.5896}
+{"ckp_name": "iter-190000", "acc": 0.5743}
+{"ckp_name": "iter-192000", "acc": 0.5991}
+{"ckp_name": "iter-194000", "acc": 0.5792}
+{"ckp_name": "iter-196000", "acc": 0.6034}
+{"ckp_name": "iter-198000", "acc": 0.6101}
+{"ckp_name": "iter-200000", "acc": 0.5783}
+{"ckp_name": "iter-202000", "acc": 0.5927}
+{"ckp_name": "iter-204000", "acc": 0.582}
+{"ckp_name": "iter-206000", "acc": 0.5807}
+{"ckp_name": "iter-208000", "acc": 0.6119}
+{"ckp_name": "iter-210000", "acc": 0.6049}
+{"ckp_name": "iter-212000", "acc": 0.593}
+{"ckp_name": "iter-214000", "acc": 0.5777}
+{"ckp_name": "iter-216000", "acc": 0.5966}
+{"ckp_name": "iter-218000", "acc": 0.6046}
+{"ckp_name": "iter-220000", "acc": 0.5737}
+{"ckp_name": "iter-222000", "acc": 0.6021}
+{"ckp_name": "iter-224000", "acc": 0.6092}
+{"ckp_name": "iter-226000", "acc": 0.5563}
+{"ckp_name": "iter-228000", "acc": 0.5948}
+{"ckp_name": "iter-230000", "acc": 0.6003}
+{"ckp_name": "iter-232000", "acc": 0.6031}
+{"ckp_name": "iter-234000", "acc": 0.6024}
+{"ckp_name": "iter-236000", "acc": 0.6104}
+{"ckp_name": "iter-238000", "acc": 0.6076}
+{"ckp_name": "iter-240000", "acc": 0.6067}
+{"ckp_name": "iter-242000", "acc": 0.6141}
+{"ckp_name": "iter-244000", "acc": 0.5966}
+{"ckp_name": "iter-246000", "acc": 0.6125}
+{"ckp_name": "iter-248000", "acc": 0.5713}
+{"ckp_name": "iter-250000", "acc": 0.6098}
+{"ckp_name": "iter-252000", "acc": 0.6015}
+{"ckp_name": "iter-254000", "acc": 0.5578}
+{"ckp_name": "iter-256000", "acc": 0.6043}
+{"ckp_name": "iter-258000", "acc": 0.5774}
+{"ckp_name": "iter-260000", "acc": 0.5957}
+{"ckp_name": "iter-262000", "acc": 0.5902}
+{"ckp_name": "iter-264000", "acc": 0.5875}
+{"ckp_name": "iter-266000", "acc": 0.5966}
+{"ckp_name": "iter-268000", "acc": 0.5939}
+{"ckp_name": "iter-270000", "acc": 0.6187}
+{"ckp_name": "iter-272000", "acc": 0.5976}
+{"ckp_name": "iter-274000", "acc": 0.6006}
+{"ckp_name": "iter-276000", "acc": 0.6098}
+{"ckp_name": "iter-278000", "acc": 0.6021}
+{"ckp_name": "iter-280000", "acc": 0.6018}
+{"ckp_name": "iter-282000", "acc": 0.6144}
+{"ckp_name": "iter-284000", "acc": 0.6031}
+{"ckp_name": "iter-286000", "acc": 0.5957}
+{"ckp_name": "iter-288000", "acc": 0.6024}
+{"ckp_name": "iter-290000", "acc": 0.6064}
+{"ckp_name": "iter-292000", "acc": 0.6171}
+{"ckp_name": "iter-294000", "acc": 0.6235}
+{"ckp_name": "iter-296000", "acc": 0.6055}
+{"ckp_name": "iter-298000", "acc": 0.611}
+{"ckp_name": "iter-300000", "acc": 0.6116}
+{"ckp_name": "iter-302000", "acc": 0.5911}
+{"ckp_name": "iter-304000", "acc": 0.618}
+{"ckp_name": "iter-306000", "acc": 0.6153}
+{"ckp_name": "iter-308000", "acc": 0.6104}
+{"ckp_name": "iter-310000", "acc": 0.6202}
+{"ckp_name": "iter-312000", "acc": 0.6037}
+{"ckp_name": "iter-314000", "acc": 0.6021}
+{"ckp_name": "iter-316000", "acc": 0.6138}
+{"ckp_name": "iter-318000", "acc": 0.5963}
+{"ckp_name": "iter-320000", "acc": 0.6095}
+{"ckp_name": "iter-322000", "acc": 0.6089}
+{"ckp_name": "iter-324000", "acc": 0.589}
+{"ckp_name": "iter-326000", "acc": 0.6052}
+{"ckp_name": "iter-328000", "acc": 0.6073}
+{"ckp_name": "iter-330000", "acc": 0.6174}
+{"ckp_name": "iter-332000", "acc": 0.6205}
+{"ckp_name": "iter-334000", "acc": 0.582}
+{"ckp_name": "iter-336000", "acc": 0.6073}
+{"ckp_name": "iter-338000", "acc": 0.6147}
+{"ckp_name": "iter-340000", "acc": 0.6076}
+{"ckp_name": "iter-342000", "acc": 0.6131}
+{"ckp_name": "iter-344000", "acc": 0.6122}
+{"ckp_name": "iter-346000", "acc": 0.6052}
+{"ckp_name": "iter-348000", "acc": 0.6187}
+{"ckp_name": "iter-350000", "acc": 0.6018}

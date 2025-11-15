@@ -1,0 +1,153 @@
+
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bin.py --file 2014-15 > tokenize_2014-15.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bin.py --file 2015-32 > tokenize_2015-32.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bin.py --file 2015-48 > tokenize_2015-48.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bin.py --file 2017-04 > tokenize_2017-04.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bin.py --file 2017-30 > tokenize_2017-30.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bin.py --file 2017-51 > tokenize_2017-51.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bin.py --file 2019-13 > tokenize_2019-13.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bin.py --file 2019-26 > tokenize_2019-26.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bin.py --file 2019-39 > tokenize_2019-39.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bin.py --file 2021-04 > tokenize_2021-04.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bin.py --file 2021-21 > tokenize_2021-21.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bin.py --file 2021-49 > tokenize_2021-49.log &
+
+
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2014-15 --start 0 --end 10000000 > tokenize_2014-15_0.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2014-15 --start 10000000 --end 20000000 > tokenize_2014-15_1.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2014-15 --start 20000000 --end 30000000 > tokenize_2014-15_2.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2014-15 --start 30000000 --end 40000000 > tokenize_2014-15_3.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2014-15 --start 40000000 --end 50000000 > tokenize_2014-15_4.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2014-15 --start 50000000 --end 60000000 > tokenize_2014-15_5.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2014-15 --start 60000000 --end 70000000 > tokenize_2014-15_6.log &
+ 
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2015-32 --start 0 --end 10000000 > tokenize_2015-32_0.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2015-32 --start 10000000 --end 20000000 > tokenize_2015-32_1.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2015-32 --start 20000000 --end 30000000 > tokenize_2015-32_2.log &
+ 
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2015-48 --start 0 --end 10000000 > tokenize_2015-48_0.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2015-48 --start 10000000 --end 20000000 > tokenize_2015-48_1.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2015-48 --start 20000000 --end 30000000 > tokenize_2015-48_2.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2015-48 --start 30000000 --end 40000000 > tokenize_2015-48_3.log &
+ 
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2017-04 --start 0 --end 10000000 > tokenize_2017-04_0.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2017-04 --start 10000000 --end 20000000 > tokenize_2017-04_1.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2017-04 --start 20000000 --end 30000000 > tokenize_2017-04_2.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2017-04 --start 30000000 --end 40000000 > tokenize_2017-04_3.log &
+ 
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2017-30 --start 0 --end 10000000 > tokenize_2017-30_0.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2017-30 --start 10000000 --end 20000000 > tokenize_2017-30_1.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2017-30 --start 20000000 --end 30000000 > tokenize_2017-30_2.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2017-30 --start 30000000 --end 40000000 > tokenize_2017-30_3.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2017-30 --start 40000000 --end 50000000 > tokenize_2017-30_4.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2017-30 --start 50000000 --end 60000000 > tokenize_2017-30_5.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2017-30 --start 60000000 --end 70000000 > tokenize_2017-30_6.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2017-30 --start 70000000 --end 80000000 > tokenize_2017-30_7.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2017-30 --start 80000000 --end 90000000 > tokenize_2017-30_8.log &
+ 
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2017-51 --start 0 --end 10000000 > tokenize_2017-51_0.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2017-51 --start 10000000 --end 20000000 > tokenize_2017-51_1.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2017-51 --start 20000000 --end 30000000 > tokenize_2017-51_2.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2017-51 --start 30000000 --end 40000000 > tokenize_2017-51_3.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2017-51 --start 40000000 --end 50000000 > tokenize_2017-51_4.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2017-51 --start 50000000 --end 60000000 > tokenize_2017-51_5.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2017-51 --start 60000000 --end 70000000 > tokenize_2017-51_6.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2017-51 --start 70000000 --end 80000000 > tokenize_2017-51_7.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2017-51 --start 80000000 --end 90000000 > tokenize_2017-51_8.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2017-51 --start 90000000 --end 100000000 > tokenize_2017-51_9.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2017-51 --start 100000000 --end 110000000 > tokenize_2017-51_10.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2017-51 --start 110000000 --end 120000000 > tokenize_2017-51_11.log &
+ 
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2019-13 --start 0 --end 10000000 > tokenize_2019-13_0.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2019-13 --start 10000000 --end 20000000 > tokenize_2019-13_1.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2019-13 --start 20000000 --end 30000000 > tokenize_2019-13_2.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2019-13 --start 30000000 --end 40000000 > tokenize_2019-13_3.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2019-13 --start 40000000 --end 50000000 > tokenize_2019-13_4.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2019-13 --start 50000000 --end 60000000 > tokenize_2019-13_5.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2019-13 --start 60000000 --end 70000000 > tokenize_2019-13_6.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2019-13 --start 70000000 --end 80000000 > tokenize_2019-13_7.log &
+ 
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2019-26 --start 0 --end 10000000 > tokenize_2019-26_0.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2019-26 --start 10000000 --end 20000000 > tokenize_2019-26_1.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2019-26 --start 20000000 --end 30000000 > tokenize_2019-26_2.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2019-26 --start 30000000 --end 40000000 > tokenize_2019-26_3.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2019-26 --start 40000000 --end 50000000 > tokenize_2019-26_4.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2019-26 --start 50000000 --end 60000000 > tokenize_2019-26_5.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2019-26 --start 60000000 --end 70000000 > tokenize_2019-26_6.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2019-26 --start 70000000 --end 80000000 > tokenize_2019-26_7.log &
+ 
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2019-39 --start 0 --end 10000000 > tokenize_2019-39_0.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2019-39 --start 10000000 --end 20000000 > tokenize_2019-39_1.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2019-39 --start 20000000 --end 30000000 > tokenize_2019-39_2.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2019-39 --start 30000000 --end 40000000 > tokenize_2019-39_3.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2019-39 --start 40000000 --end 50000000 > tokenize_2019-39_4.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2019-39 --start 50000000 --end 60000000 > tokenize_2019-39_5.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2019-39 --start 60000000 --end 70000000 > tokenize_2019-39_6.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2019-39 --start 70000000 --end 80000000 > tokenize_2019-39_7.log &
+ 
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2021-04 --start 0 --end 10000000 > tokenize_2021-04_0.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2021-04 --start 10000000 --end 20000000 > tokenize_2021-04_1.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2021-04 --start 20000000 --end 30000000 > tokenize_2021-04_2.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2021-04 --start 30000000 --end 40000000 > tokenize_2021-04_3.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2021-04 --start 40000000 --end 50000000 > tokenize_2021-04_4.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2021-04 --start 50000000 --end 60000000 > tokenize_2021-04_5.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2021-04 --start 60000000 --end 70000000 > tokenize_2021-04_6.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2021-04 --start 70000000 --end 80000000 > tokenize_2021-04_7.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2021-04 --start 80000000 --end 90000000 > tokenize_2021-04_8.log &
+ 
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2021-21 --start 0 --end 10000000 > tokenize_2021-21_0.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2021-21 --start 10000000 --end 20000000 > tokenize_2021-21_1.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2021-21 --start 20000000 --end 30000000 > tokenize_2021-21_2.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2021-21 --start 30000000 --end 40000000 > tokenize_2021-21_3.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2021-21 --start 40000000 --end 50000000 > tokenize_2021-21_4.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2021-21 --start 50000000 --end 60000000 > tokenize_2021-21_5.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2021-21 --start 60000000 --end 70000000 > tokenize_2021-21_6.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2021-21 --start 70000000 --end 80000000 > tokenize_2021-21_7.log &
+ 
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2021-49 --start 0 --end 10000000 > tokenize_2021-49_0.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2021-49 --start 10000000 --end 20000000 > tokenize_2021-49_1.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2021-49 --start 20000000 --end 30000000 > tokenize_2021-49_2.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2021-49 --start 30000000 --end 40000000 > tokenize_2021-49_3.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2021-49 --start 40000000 --end 50000000 > tokenize_2021-49_4.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2021-49 --start 50000000 --end 60000000 > tokenize_2021-49_5.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2021-49 --start 60000000 --end 70000000 > tokenize_2021-49_6.log &
+
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2023-06 --start 0 --end 10000000 > tokenize_2023-06_0.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2023-06 --start 10000000 --end 20000000 > tokenize_2023-06_1.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2023-06 --start 20000000 --end 30000000 > tokenize_2023-06_2.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2023-06 --start 30000000 --end 40000000 > tokenize_2023-06_3.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2023-06 --start 40000000 --end 50000000 > tokenize_2023-06_4.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2023-06 --start 50000000 --end 60000000 > tokenize_2023-06_5.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2023-06 --start 60000000 --end 70000000 > tokenize_2023-06_6.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2023-06 --start 70000000 --end 80000000 > tokenize_2023-06_7.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2023-06 --start 80000000 --end 90000000 > tokenize_2023-06_8.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2023-06 --start 90000000 --end 100000000 > tokenize_2023-06_9.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2023-06 --start 100000000 --end 110000000 > tokenize_2023-06_10.log &
+ 
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2023-14 --start 0 --end 10000000 > tokenize_2023-14_0.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2023-14 --start 10000000 --end 20000000 > tokenize_2023-14_1.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2023-14 --start 20000000 --end 30000000 > tokenize_2023-14_2.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2023-14 --start 30000000 --end 40000000 > tokenize_2023-14_3.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2023-14 --start 40000000 --end 50000000 > tokenize_2023-14_4.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2023-14 --start 50000000 --end 60000000 > tokenize_2023-14_5.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2023-14 --start 60000000 --end 70000000 > tokenize_2023-14_6.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2023-14 --start 70000000 --end 80000000 > tokenize_2023-14_7.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2023-14 --start 80000000 --end 90000000 > tokenize_2023-14_8.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2023-14 --start 90000000 --end 100000000 > tokenize_2023-14_9.log &
+nohup python -u /data2/liuyang/llm_pretrain_xmodel/data_preprocess/tokenize_bucket.py --file 2023-14 --start 100000000 --end 110000000 > tokenize_2023-14_10.log &
+
+
+cat 2014-15_*.bin > 2014-15.bin
+cat 2015-32_*.bin > 2015-32.bin
+cat 2015-48_*.bin > 2015-48.bin
+cat 2017-04_*.bin > 2017-04.bin
+cat 2017-30_*.bin > 2017-30.bin
+cat 2017-51_*.bin > 2017-51.bin
+cat 2019-13_*.bin > 2019-13.bin
+cat 2019-26_*.bin > 2019-26.bin
+cat 2019-39_*.bin > 2019-39.bin
+cat 2021-04_*.bin > 2021-04.bin
+cat 2021-21_*.bin > 2021-21.bin
+cat 2021-49_*.bin > 2021-49.bin
+cat 2023-06_*.bin > 2023-06.bin
+cat 2023-14_*.bin > 2023-14.bin

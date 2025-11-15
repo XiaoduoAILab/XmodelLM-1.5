@@ -1,0 +1,24 @@
+arxiv   412MB
+book    669MB
+c4      2211MB
+cc      11444MB
+github  398MB
+stackexchange   429MB
+wiki    1112MB
+
+amps    13MB
+bookcorpus  20MB
+fanfics     67MB
+openwebmath 270MB
+pubmed      337MB
+starcoder   1809MB
+
+# 中文
+law     337MB
+news    168MB
+patent  168MB
+webtext 4361MB
+
+industry_data   2756MB
+
+Total   26990MB

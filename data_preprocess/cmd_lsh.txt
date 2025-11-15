@@ -1,0 +1,26 @@
+nohup /bin/python3 /data1/redpajama-v2-process/process/dedup_lsh_single.py --file 2014-15 > lsh_2014-15.log &
+nohup /bin/python3 /data1/redpajama-v2-process/process/dedup_lsh_single.py --file 2015-32 > lsh_2015-32.log &
+nohup /bin/python3 /data1/redpajama-v2-process/process/dedup_lsh_single.py --file 2015-48 > lsh_2015-48.log &
+nohup /bin/python3 /data1/redpajama-v2-process/process/dedup_lsh_single.py --file 2017-04 > lsh_2017-04.log &
+nohup /bin/python3 /data1/redpajama-v2-process/process/dedup_lsh_single.py --file 2017-30 > lsh_2017-30.log &
+nohup /bin/python3 /data1/redpajama-v2-process/process/dedup_lsh_single.py --file 2017-51 > lsh_2017-51.log &
+nohup /bin/python3 /data1/redpajama-v2-process/process/dedup_lsh_single.py --file 2019-13 > lsh_2019-13.log &
+nohup /bin/python3 /data1/redpajama-v2-process/process/dedup_lsh_single.py --file 2019-26 > lsh_2019-26.log &
+nohup /bin/python3 /data1/redpajama-v2-process/process/dedup_lsh_single.py --file 2019-39 > lsh_2019-39.log &
+nohup /bin/python3 /data1/redpajama-v2-process/process/dedup_lsh_single.py --file 2021-04 > lsh_2021-04.log &
+nohup /bin/python3 /data1/redpajama-v2-process/process/dedup_lsh_single.py --file 2021-21 > lsh_2021-21.log &
+nohup /bin/python3 /data1/redpajama-v2-process/process/dedup_lsh_single.py --file 2021-49 > lsh_2021-49.log &
+
+grep "total" lsh_2014-15.log | awk '{total += $(NF-4); delete_sum += $(NF-2); save_sum += $NF} END {print "Total:", total, "Delete:", delete_sum, "Save:", save_sum, "Save ratio:", save_sum/total}'
+grep "total" lsh_2015-32.log | awk '{total += $(NF-4); delete_sum += $(NF-2); save_sum += $NF} END {print "Total:", total, "Delete:", delete_sum, "Save:", save_sum, "Save ratio:", save_sum/total}'
+grep "total" lsh_2015-48.log | awk '{total += $(NF-4); delete_sum += $(NF-2); save_sum += $NF} END {print "Total:", total, "Delete:", delete_sum, "Save:", save_sum, "Save ratio:", save_sum/total}'
+grep "total" lsh_2017-04.log | awk '{total += $(NF-4); delete_sum += $(NF-2); save_sum += $NF} END {print "Total:", total, "Delete:", delete_sum, "Save:", save_sum, "Save ratio:", save_sum/total}'
+grep "total" lsh_2017-30.log | awk '{total += $(NF-4); delete_sum += $(NF-2); save_sum += $NF} END {print "Total:", total, "Delete:", delete_sum, "Save:", save_sum, "Save ratio:", save_sum/total}'
+grep "total" lsh_2017-51.log | awk '{total += $(NF-4); delete_sum += $(NF-2); save_sum += $NF} END {print "Total:", total, "Delete:", delete_sum, "Save:", save_sum, "Save ratio:", save_sum/total}'
+grep "total" lsh_2019-13.log | awk '{total += $(NF-4); delete_sum += $(NF-2); save_sum += $NF} END {print "Total:", total, "Delete:", delete_sum, "Save:", save_sum, "Save ratio:", save_sum/total}'
+grep "total" lsh_2019-26.log | awk '{total += $(NF-4); delete_sum += $(NF-2); save_sum += $NF} END {print "Total:", total, "Delete:", delete_sum, "Save:", save_sum, "Save ratio:", save_sum/total}'
+grep "total" lsh_2019-39.log | awk '{total += $(NF-4); delete_sum += $(NF-2); save_sum += $NF} END {print "Total:", total, "Delete:", delete_sum, "Save:", save_sum, "Save ratio:", save_sum/total}'
+grep "total" lsh_2021-04.log | awk '{total += $(NF-4); delete_sum += $(NF-2); save_sum += $NF} END {print "Total:", total, "Delete:", delete_sum, "Save:", save_sum, "Save ratio:", save_sum/total}'
+grep "total" lsh_2021-21.log | awk '{total += $(NF-4); delete_sum += $(NF-2); save_sum += $NF} END {print "Total:", total, "Delete:", delete_sum, "Save:", save_sum, "Save ratio:", save_sum/total}'
+grep "total" lsh_2021-49.log | awk '{total += $(NF-4); delete_sum += $(NF-2); save_sum += $NF} END {print "Total:", total, "Delete:", delete_sum, "Save:", save_sum, "Save ratio:", save_sum/total}'
+grep "total" lsh_*.log | awk '{total += $(NF-4); delete_sum += $(NF-2); save_sum += $NF} END {print "Total:", total, "Delete:", delete_sum, "Save:", save_sum, "Save ratio:", save_sum/total}'

@@ -1,0 +1,12 @@
+{
+    "zero_optimization": {
+        "stage": 1,
+        "reduce_bucket_size": 5e8
+    },
+    "bf16": {
+        "enabled": "auto"
+    },
+    "train_micro_batch_size_per_gpu": "auto",
+    "train_batch_size": "auto",
+    "gradient_accumulation_steps": "auto"
+}

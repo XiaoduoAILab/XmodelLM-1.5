@@ -1,0 +1,17 @@
+nohup /bin/python3 /data1/redpajama-v2-process/process/preprocess.py --folder 2014-15 > preprocess_2014-15.log &
+nohup /bin/python3 /data1/redpajama-v2-process/process/preprocess.py --folder 2015-32 > preprocess_2015-32.log &
+nohup /bin/python3 /data1/redpajama-v2-process/process/preprocess.py --folder 2015-48 > preprocess_2015-48.log &
+nohup /bin/python3 /data1/redpajama-v2-process/process/preprocess.py --folder 2017-04 > preprocess_2017-04.log &
+nohup /bin/python3 /data1/redpajama-v2-process/process/preprocess.py --folder 2017-30 > preprocess_2017-30.log &
+nohup /bin/python3 /data1/redpajama-v2-process/process/preprocess.py --folder 2017-51 > preprocess_2017-51.log &
+nohup /bin/python3 /data1/redpajama-v2-process/process/preprocess.py --folder 2019-13 > preprocess_2019-13.log &
+nohup /bin/python3 /data1/redpajama-v2-process/process/preprocess.py --folder 2019-26 > preprocess_2019-26.log &
+nohup /bin/python3 /data1/redpajama-v2-process/process/preprocess.py --folder 2019-39 > preprocess_2019-39.log &
+nohup /bin/python3 /data1/redpajama-v2-process/process/preprocess.py --folder 2021-04 > preprocess_2021-04.log &
+nohup /bin/python3 /data1/redpajama-v2-process/process/preprocess.py --folder 2021-21 > preprocess_2021-21.log &
+nohup /bin/python3 /data1/redpajama-v2-process/process/preprocess.py --folder 2021-49 > preprocess_2021-49.log &
+
+nohup /bin/python3 /data1/redpajama-v2-process/process/preprocess.py --folder 2023-06 > preprocess_2023-06.log &
+nohup /bin/python3 /data1/redpajama-v2-process/process/preprocess.py --folder 2023-14 > preprocess_2023-14.log &
+
+grep "num" preprocess_*.log | awk '{total += $2; save_sum += $4} END {print "Total:", total, "Save:", save_sum, "Save ratio:", save_sum/total}'

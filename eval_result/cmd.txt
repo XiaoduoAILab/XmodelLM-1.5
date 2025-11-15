@@ -1,0 +1,51 @@
+CUDA_VISIBLE_DEVICES=0 python eval_proc/eval_ckps_nli.py --tasks arc_ar,arc_fr,arc_zh
+CUDA_VISIBLE_DEVICES=5 python eval_proc/eval_ckps_nli.py --tasks piqa_ar
+CUDA_VISIBLE_DEVICES=5 python eval_proc/eval_ckps_nli.py --tasks xnli_ar,xnli_fr,xnli_th,xnli_zh
+CUDA_VISIBLE_DEVICES=7 python eval_proc/eval_ckps_nli.py --tasks xcopa_th,xcopa_zh,xstorycloze_ar,xstorycloze_zh,xwinograd_fr,xwinograd_zh
+CUDA_VISIBLE_DEVICES=0 python eval_proc/eval_ckps_nli.py --tasks mmlu_continuation
+CUDA_VISIBLE_DEVICES=5 python eval_proc/eval_ckps_nli.py --tasks gsm8k  --metric exact_match
+CUDA_VISIBLE_DEVICES=5 python eval_proc/eval_ckps_nli.py --tasks hellaswag_ar,hellaswag_fr
+CUDA_VISIBLE_DEVICES=5 python eval_proc/eval_ckps_nli.py --tasks arc_challenge,arc_easy,boolq,hellaswag,openbookqa,piqa,sciq,winogrande --checkpoints_dir /data2/liuyang/llm_pretrain_xmodel/out_f_line/xl_f_line/
+
+CUDA_VISIBLE_DEVICES=0 nohup python eval_proc/eval_ckps_nli.py --tasks arithmetic_1dc,arithmetic_2da,arithmetic_2dm,arithmetic_2ds,arithmetic_3da,arithmetic_3ds --batch_size 32 > arithmetic_1dc.out &
+CUDA_VISIBLE_DEVICES=1 nohup python eval_proc/eval_ckps_nli.py --tasks commonsense_qa,piqa_ar,race --batch_size 32 > commonsense_qa.out &
+CUDA_VISIBLE_DEVICES=2 nohup python eval_proc/eval_ckps_nli.py --tasks xnli_ar,xnli_fr,xnli_th,xnli_zh --batch_size 32 > xnli_ar.out &
+CUDA_VISIBLE_DEVICES=3 nohup python eval_proc/eval_ckps_nli.py --tasks hellaswag_ar,hellaswag_fr --batch_size 32 > hellaswag_ar.out &
+CUDA_VISIBLE_DEVICES=4 nohup python eval_proc/eval_ckps_nli.py --tasks mmlu_continuation --batch_size 32 > mmlu_continuation.out &
+CUDA_VISIBLE_DEVICES=5 nohup python eval_proc/eval_ckps_nli.py --tasks xwinograd_fr,xwinograd_zh --batch_size 32 > xwinograd_fr.out &
+CUDA_VISIBLE_DEVICES=6 nohup python eval_proc/eval_ckps_nli.py --tasks xstorycloze_ar,xstorycloze_zh --batch_size 32 > xstorycloze_ar.out &
+CUDA_VISIBLE_DEVICES=7 nohup python eval_proc/eval_ckps_nli.py --tasks arc_challenge,arc_easy,boolq,hellaswag,openbookqa,piqa,sciq,winogrande --batch_size 32 > arc_challenge.out &
+
+CUDA_VISIBLE_DEVICES=1 nohup python eval_proc/eval_ckps_nli.py --tasks gsm8k --batch_size 32 --metric extract_match > gsm8k.out &
+CUDA_VISIBLE_DEVICES=2 nohup python eval_proc/eval_ckps_nli.py --tasks bbh --batch_size 32 --metric extract_match > bbh.out &
+CUDA_VISIBLE_DEVICES=3 nohup python eval_proc/eval_ckps_nli.py --tasks xcopa_th,xcopa_zh --batch_size 32 > xcopa_th.out &
+CUDA_VISIBLE_DEVICES=4 nohup python eval_proc/eval_ckps_nli.py --tasks aclue --batch_size 32 > aclue.out &
+CUDA_VISIBLE_DEVICES=7 python eval_proc/eval_ckps_nli.py --tasks agieval_gaokao_biology,agieval_gaokao_chemistry,agieval_gaokao_chinese,agieval_gaokao_english,agieval_gaokao_geography,agieval_gaokao_history,agieval_gaokao_mathqa,agieval_gaokao_mathcloze,agieval_gaokao_physics --batch_size 32
+
+
+
+CUDA_VISIBLE_DEVICES=0 python eval_proc/eval_ckps_nli.py --tasks m_mmlu_fr
+CUDA_VISIBLE_DEVICES=1 python eval_proc/eval_ckps_nli.py --tasks piqa_ar --checkpoints_dir /data2/liuyang/checkpoints/e_line/ --line e_line --tokenizer_path tokenizers/xmodel/v6/xmodel_32000
+CUDA_VISIBLE_DEVICES=2 python eval_proc/eval_ckps_nli.py --tasks xnli_ar,xnli_fr,xnli_th,xcopa_th --checkpoints_dir /data2/liuyang/checkpoints/e_line/ --line e_line --tokenizer_path tokenizers/xmodel/v6/xmodel_32000 --batch_size 64
+CUDA_VISIBLE_DEVICES=3 python eval_proc/eval_ckps_nli.py --tasks m_mmlu_ar
+CUDA_VISIBLE_DEVICES=4 python eval_proc/eval_ckps_nli.py --tasks mmlu_continuation --checkpoints_dir /data2/liuyang/checkpoints/e_line/ --line e_line --tokenizer_path tokenizers/xmodel/v6/xmodel_32000 --batch_size 32
+CUDA_VISIBLE_DEVICES=5 python eval_proc/eval_ckps_nli.py --tasks gsm8k  --metric exact_match
+CUDA_VISIBLE_DEVICES=6 python eval_proc/eval_ckps_nli.py --tasks hellaswag_ar,hellaswag_fr --checkpoints_dir /data2/liuyang/checkpoints/e_line/ --line e_line --tokenizer_path tokenizers/xmodel/v6/xmodel_32000 --batch_size 64
+CUDA_VISIBLE_DEVICES=7 python eval_proc/eval_ckps_nli.py --tasks arc_challenge,arc_easy,boolq,hellaswag,openbookqa,piqa,sciq,winogrande --checkpoints_dir /data2/liuyang/checkpoints/e_line/ --line e_line --tokenizer_path tokenizers/xmodel/v6/xmodel_32000 --batch_size 64
+
+CUDA_VISIBLE_DEVICES=0 nohup python eval_proc/eval_ckps_nli.py --tasks arc_challenge --checkpoints_dir /data2/liuyang/checkpoints/e_line/ --line e_line --tokenizer_path tokenizers/xmodel/v6/xmodel_32000 --batch_size 32 > arc_challenge.out &
+CUDA_VISIBLE_DEVICES=0 nohup python eval_proc/eval_ckps_nli.py --tasks xstorycloze_ar,xstorycloze_zh,xwinograd_fr,xwinograd_zh --checkpoints_dir /data2/liuyang/checkpoints/e_line/ --line e_line --tokenizer_path tokenizers/xmodel/v6/xmodel_32000 --batch_size 32 > xstorycloze_ar.out &
+CUDA_VISIBLE_DEVICES=2 nohup python eval_proc/eval_ckps_nli.py --tasks xcopa_th,xcopa_zh --checkpoints_dir /data2/liuyang/checkpoints/e_line/ --line e_line --tokenizer_path tokenizers/xmodel/v6/xmodel_32000 --batch_size 32 > xcopa_th.out &
+CUDA_VISIBLE_DEVICES=3 nohup python eval_proc/eval_ckps_nli.py --tasks hellaswag_fr --checkpoints_dir /data4/liuyang/checkpoints/e_line/ --line e_line --tokenizer_path tokenizers/xmodel/v6/xmodel_32000 --batch_size 32 > hellaswag_fr.out &
+CUDA_VISIBLE_DEVICES=4 nohup python eval_proc/eval_ckps_nli.py --tasks arithmetic_1dc,arithmetic_2da,arithmetic_2dm,arithmetic_2ds,arithmetic_3da,arithmetic_3ds --checkpoints_dir /data2/liuyang/checkpoints/e_line/ --line e_line --tokenizer_path tokenizers/xmodel/v6/xmodel_32000 --batch_size 32 > arithmetic_1dc.out &
+CUDA_VISIBLE_DEVICES=5 nohup python eval_proc/eval_ckps_nli.py --tasks hellaswag_ar --checkpoints_dir /data2/liuyang/checkpoints/e_line/ --line e_line --tokenizer_path tokenizers/xmodel/v6/xmodel_32000 --batch_size 32 > hellaswag_ar.out &
+CUDA_VISIBLE_DEVICES=6 nohup python eval_proc/eval_ckps_nli.py --tasks xnli_ar,xnli_fr,xnli_th,xnli_zh --checkpoints_dir /data2/liuyang/checkpoints/e_line/ --line e_line --tokenizer_path tokenizers/xmodel/v6/xmodel_32000 --batch_size 32 > xnli_ar.out &
+CUDA_VISIBLE_DEVICES=7 nohup python eval_proc/eval_ckps_nli.py --tasks mmlu_continuation --checkpoints_dir /data2/liuyang/checkpoints/e_line/ --line e_line --tokenizer_path tokenizers/xmodel/v6/xmodel_32000 --batch_size 32 > mmlu_continuation.out &
+
+
+CUDA_VISIBLE_DEVICES=5 python eval_proc/eval_ckps_nli.py --tasks agieval_cn,agieval_en --checkpoints_dir /data2/liuyang/checkpoints/e_line/ --line e_line --tokenizer_path tokenizers/xmodel/v6/xmodel_32000 --batch_size 32
+CUDA_VISIBLE_DEVICES=5 python eval_proc/eval_ckps_nli.py --tasks agieval_cn,agieval_en --checkpoints_dir /data2/liuyang/checkpoints/e_line/ --line e_line --tokenizer_path tokenizers/xmodel/v6/xmodel_32000 --batch_size 32
+CUDA_VISIBLE_DEVICES=6 python eval_proc/eval_ckps_nli.py --tasks commonsense_qa,race --checkpoints_dir /data2/liuyang/checkpoints/e_line/ --line e_line --tokenizer_path tokenizers/xmodel/v6/xmodel_32000 --batch_size 32
+CUDA_VISIBLE_DEVICES=7 python eval_proc/eval_ckps_nli.py --tasks arc_challenge,arc_easy,boolq,hellaswag,openbookqa,piqa,sciq,winogrande --checkpoints_dir /data2/liuyang/checkpoints/e_line/ --line e_line --tokenizer_path tokenizers/xmodel/v6/xmodel_32000 --batch_size 32
+
+

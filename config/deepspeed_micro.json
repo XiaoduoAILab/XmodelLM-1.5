@@ -1,0 +1,22 @@
+{
+  "train_micro_batch_size_per_gpu": 40,
+  "gradient_accumulation_steps" : 1,
+  "zero_allow_untested_optimizer": true,
+  "tensorboard": {
+    "enabled": true,
+    "output_path": "runs/",
+    "job_name": "micro"
+  },
+  "zero_optimization": {
+    "stage": 2,
+    "contiguous_gradients": false,
+    "allgather_bucket_size": 1e8,
+    "reduce_bucket_size": 1e8,
+    "overlap_comm": true,
+    "reduce_scatter": true
+  },
+  "gradient_clipping": 1.0,
+  "bf16": {
+    "enabled": true
+  }
+}

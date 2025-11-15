@@ -1,0 +1,10 @@
+/bin/python3 /data1/redpajama-v2-process/process/preprocess.py --folder 2021-04
+
+coscli cp -r --part-size 64  /data1/redpajama-v2-process/data cos://xd-model/xpt-data/D_line/data_preprocess
+
+zcat /data2/RedPajama-Data-V2/en_head/2019-13/*.json.gz | wc -l
+zcat /data2/RedPajama-Data-V2/en_head/2019-13/0001.en_head.json.gz | wc -l
+grep -o '[end of paragraph --wyc]' /data1/redpajama-v2-process/data_preprocess/2014-15.txt | wc -l
+grep -o '200000/200000' lsh_2014-15.log | wc -l
+
+gzip -cd /data2/RedPajama-Data-V2/en_head/2014-15/*.json.gz | wc -l

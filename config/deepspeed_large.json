@@ -1,0 +1,60 @@
+{
+  "train_micro_batch_size_per_gpu": 1,
+  "gradient_accumulation_steps": 2,
+  "zero_allow_untested_optimizer": true,
+  "tensorboard": {
+    "enabled": true,
+    "output_path": "runs/",
+    "job_name": "large"
+  },
+  "fp32": {
+        "enabled": true
+    },
+
+    "optimizer": {
+        "type": "AdamW",
+        "params": {
+            "lr": 0.001,
+            "betas": [
+            0.9,
+            0.95
+          ],
+          "eps": 1e-8,
+          "weight_decay": 0.1
+        }
+    },
+
+     "scheduler": {
+      "type": "WarmupLR",
+      "params": {
+          "warmup_min_lr": 0,
+          "warmup_max_lr": 0.001,
+          "warmup_num_steps": 1000
+      }
+  },
+
+    "zero_optimization": {
+        "stage": 3,
+        "offload_optimizer": {
+            "device": "cpu",
+            "pin_memory": true
+        },
+        "offload_param": {
+            "device": "cpu",
+            "pin_memory": true
+        },
+        "overlap_comm": true,
+        "contiguous_gradients": true,
+        "sub_group_size": 1e9,
+        "reduce_bucket_size": 1e7,
+        "stage3_prefetch_bucket_size": 1e7,
+        "stage3_param_persistence_threshold": 1e7,
+        "allgather_bucket_size": 1e7,
+        "stage3_max_live_parameters": 1e9,
+        "stage3_max_reuse_distance": 1e9,
+        "stage3_gather_16bit_weights_on_model_save": true
+    },
+    "gradient_clipping": 1.0,
+    "steps_per_print": 2,
+    "wall_clock_breakdown": false
+}

@@ -1,0 +1,18 @@
+{
+  "train_micro_batch_size_per_gpu": 1,
+  "gradient_accumulation_steps" : 2,
+  "zero_allow_untested_optimizer": true,
+  "tensorboard": {
+    "enabled": true,
+    "output_path": "runs/",
+    "job_name": "small"
+  },
+  "zero_optimization": {
+        "stage": 1,
+        "reduce_bucket_size": 5e8
+  },
+  "gradient_clipping": 1.0,
+  "fp32": {
+    "enabled": true
+  }
+}

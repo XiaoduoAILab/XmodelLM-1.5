@@ -1,0 +1,47 @@
+{
+  "gradient_accumulation_steps": 40,
+  "train_micro_batch_size_per_gpu": 1,
+  "prescale_gradients": false,
+  "zero_allow_untested_optimizer": true,
+  "optimizer": {
+    "type": "AdamW",
+    "params": {
+      "lr": 3e-4,
+      "eps": 1.0e-8,
+      "betas": [
+        0.9,
+        0.95
+      ],
+      "weight_decay": 0.1
+    }
+  },
+  "tensorboard": {
+    "enabled": true,
+    "output_path": "runs/",
+    "job_name": "train_xmodel_7B"
+  },
+  "zero_optimization": {
+    "stage": 2,
+    "contiguous_gradients": false,
+    "allgather_bucket_size": 1e8,
+    "reduce_bucket_size": 1e8,
+    "overlap_comm": true,
+    "reduce_scatter": true
+  },
+  "scheduler": {
+    "type": "WarmupDecayLR",
+    "params": {
+      "total_num_steps": 200000,
+      "warmup_min_lr": 0,
+      "warmup_max_lr": 3e-4,
+      "warmup_num_steps": 2000,
+      "warmup_type": "linear"
+    }
+  },
+  "steps_per_print": 16,
+  "gradient_clipping": 1.0,
+  "wall_clock_breakdown": true,
+  "bf16": {
+    "enabled": true
+  }
+}

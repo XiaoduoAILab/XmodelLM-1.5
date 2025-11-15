@@ -1,0 +1,10 @@
+{"task": "arc_challenge", "model": "xmodel0.5-1.1b", "value": 0.2816}
+{"task": "arc_easy", "model": "xmodel0.5-1.1b", "value": 0.6229}
+{"task": "boolq", "model": "xmodel0.5-1.1b", "value": 0.6144}
+{"task": "hellaswag", "model": "xmodel0.5-1.1b", "value": 0.4596}
+{"task": "openbookqa", "model": "xmodel0.5-1.1b", "value": 0.2400}
+{"task": "piqa", "model": "xmodel0.5-1.1b", "value": 0.7203}
+{"task": "sciq", "model": "xmodel0.5-1.1b", "value": 0.8970}
+{"task": "winogrande", "model": "xmodel0.5-1.1b", "value": 0.6062}
+{"task": "hellaswag_ar", "model": "polylm-1.7b", "value": 0.2814}
+{"task": "hellaswag_fr", "model": "polylm-1.7b", "value": 0.3085}

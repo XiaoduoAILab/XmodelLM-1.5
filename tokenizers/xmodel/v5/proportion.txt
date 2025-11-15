@@ -1,0 +1,3 @@
+16G: training_data1.txt, test_data1.txt zhwiki(1.5G) + enwiki(8G)  + industry_data(2.5G) + chinanews(4G)
+20G: training_data2.txt, test_data2.txt zhwiki(1.5G) + enwiki(12G) + industry_data(2.5G) + chinanews(4G)
+24G: training_data3.txt, test_data3.txt zhwiki(1.5G) + enwiki(12G) + industry_data(2.5G) + chinanews(8G)
